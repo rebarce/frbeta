@@ -1286,7 +1286,7 @@ header ul li:hover {
 
   /* PACKAGING */
   .packaging {
-    padding-inline: 20%;
+    padding-inline: 25%;
   }
   /* END OF PACKAGING */
 
@@ -1306,54 +1306,4 @@ header ul li:hover {
   /* END OF CONTACT */
 }
 
-/* Style the Headings that are used to open and close the accordion panel */
-.lessMore {
-  margin: 1rem auto;
-  cursor: pointer;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 2px solid var(--dark-red);
-}
-/* Change color of the heading and icon (on hover and click) */
-.active,
-.lessMore:hover,
-.lessMore:hover::after {
-  color: var(--text-gr);
-}
-/* Add "plus" sign (+) after Accordion */
-.lessMore::after {
-  content: "\002B";
-  color: rgba(104, 22, 22, 0.8);
-  font-weight: bold;
-  float: right;
-  font-size: 1.2rem;
-  padding-left: 1rem;
-}
-/* Add "minus" sign (-) after Accordion (when accordion is active) */
-.active::after {
-  content: "\2212";
-  color: rgba(104, 22, 22, 0.8);
-}
-/* Style the accordion panel */
-.lessMore-panel {
-  background-color: rgb(242, 250, 250);
-  overflow: hidden;
-  max-height: 0;
-  transition: max-height 0.2s ease-out;
-  text-align: center;
-}
-.lessMore-panel-item {
-  font-size: 0.8rem;
-  border-radius: 5px;
-  background-color: var(--bg-clr);
-}
-.lessMore-panel p {
-  padding: 0;
-  padding-top: 0.5rem;
-}
-.lessMore-panel img {
-  padding: 1rem;
-}
+
